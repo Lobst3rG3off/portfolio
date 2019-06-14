@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Acme', sans-serif;
+  font-size: 4rem;
+}
+
+h2, h3, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  width: 100%;
+  background-image: url(./assets/windswept_heath_by_fooyee-d813f9a.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10%;
+}
+
+header .heroScript {
+  z-index: 5;
+}
+
+header .heroScript h1, header h2 {
+  color: #e6e7e9;
+}
+
+header:after {
+  content: "";
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50%);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  bottom: 50%;
+  right: 0;
+  left: 0;
+  content: " ";
+  z-index: 1;
+}
+
+.heroImage {
+  width: 40%;
+  z-index: 5;
+}
+
+.heroImage img {
+  width: 100%;
+  border-radius: 15%;
+}
+/*# sourceMappingURL=styles.css.map */
