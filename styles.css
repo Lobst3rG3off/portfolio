@@ -86,19 +86,28 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: gray;
 }
 
 .aboutMe {
   width: 80%;
   margin: 15% auto;
-  border-bottom: 5px dashed;
   line-height: 1.5;
-  padding-bottom: 5%;
+  padding: 5%;
+  background: #e6e7e9;
+}
+
+.aboutMe h2 {
+  text-align: center;
 }
 
 .aboutMe .skillIcons {
   padding-top: 5%;
   text-align: center;
+}
+
+.aboutMe .skillIcons i {
+  font-size: 4rem;
 }
 
 .project {
