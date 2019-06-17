@@ -64,12 +64,13 @@ header:after {
 }
 
 .heroImage {
-    width: 40%;
+    width: 37%;
+    z-index: 5;
+    padding-top: 30px;
     img {
         width: 100%;
         border-radius: 15%;
     }
-    z-index: 5;
 
 }
 
@@ -84,22 +85,32 @@ section {
 }
 
 .aboutMe {
-    width: 80%;
+       width: 80%;
+       margin: 15% auto;
+       border-bottom: 5px dashed;
+       line-height: 1.5;
+       padding-bottom: 5%;
+
+   
     .skillIcons{
+        padding-top: 5%;
         text-align: center;
     }
 }
 
 .project {
     width: 60%;
-
+    margin: 15% auto;
     .imageBox{
         width: 100%;
         img {
             width: 100%;
         }
     }
-
+.skillIcons {
+    padding-top: 5%;
+    text-align: center;
+}
 }
 
 .flexContainer {
@@ -116,6 +127,25 @@ footer {
     background: #262d18;
     width: 100%;
     height: 20vh;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+.contactMe {
+    width: 100%;
+}
+    .contactInfo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        p {
+            color: white;
+        }
+    }
+
+
 }
 
 
