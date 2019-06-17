@@ -91,6 +91,7 @@ section {
        line-height: 1.5;
        padding: 5%;
        background: #e6e7e9;
+       box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 
        h2 {
            text-align: center;
@@ -110,8 +111,13 @@ section {
 .project {
     width: 60%;
     margin: 10% 0;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    background: #e6e7e9;
+
+padding: 2%;
     .imageBox{
         width: 100%;
+        border: 1px solid black;
         img {
             width: 100%;
         }
