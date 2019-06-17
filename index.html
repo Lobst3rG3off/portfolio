@@ -29,6 +29,7 @@
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Acme|Raleway&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
@@ -46,7 +47,8 @@
         </div>
     </header>
     <section >
-        <div class="aboutMe wrapper">
+        
+        <div class="aboutMe wrapper" data-aos="fade-up">
             <h2>About Me:</h2>
             <p>Hi, my name is Geoff Grossman and I am an unproud owner of too many Funko Pops. But what I am proud of is being is a
             Developer. One thing I've taken from being a chef is that while coding alone is fine and nice, I love highly collaborative
@@ -67,7 +69,7 @@
             </div>
         </div>
 <div class="projectContainer">
-        <div class="project1 project">
+        <div class="project1 project" data-aos="fade-down">
             <h3>Movie Chooseriser</h3>
             <p>A Movie Selector Application</p>
             <div class="imageBox">
@@ -91,7 +93,7 @@
 
         <div class="flexContainer">
             <div class="flexSpacer"></div>
-        <div class="project2 project">
+        <div class="project2 project" data-aos="fade-down">
             <h3>GIF Gallery</h3>
             <p>A Fun Dynamically generating GIF Gallery pulling from the 25 most trending Gifs from Giphy</p>
             <div class="imageBox">
@@ -109,7 +111,7 @@
                 </div>
             </div>
         </div>
-        <div class="project3 project">
+        <div class="project3 project" data-aos="fade-down">
             <h3>Auto-Complete</h3>
             <p>a 90's themed Auto-Complete Application</p>
             <div class="imageBox">
@@ -133,7 +135,7 @@
 </div>
     </section>
     <footer>
-        <div class="contactMe">
+        <div class="contactMe" data-aos="flip-left">
             <div class="contactInfo">
                 <p>Contact:</p>
                 <p><a href="mailto:lobstergeoff@gmail.com"><i class="devicon-google-plain"></i></a></p>
@@ -144,7 +146,10 @@
             </div>
         </div>
     </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>
