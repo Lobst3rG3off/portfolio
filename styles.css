@@ -244,7 +244,7 @@ header:after {
 .heroImage {
   width: 37%;
   z-index: 5;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .heroImage img {
@@ -376,9 +376,12 @@ footer .contactInfo {
 }
 
 footer .contactInfo p {
-  color: #644347;
   font-size: 1.5rem;
   line-height: 30px;
+}
+
+footer .contactInfo p i {
+  color: black;
 }
 
 @media (max-width: 1478px) {
