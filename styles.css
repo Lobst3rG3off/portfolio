@@ -440,4 +440,43 @@ footer .contactInfo p {
     width: 15%;
   }
 }
+
+@media (max-width: 797px) {
+  .heroImage {
+    padding-top: 31%;
+  }
+}
+
+@media (max-width: 556px) {
+  .heroImage {
+    padding-top: 50%;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 435px) {
+  footer .contactMe {
+    width: 20%;
+  }
+}
+
+@media (max-width: 367px) {
+  .aboutMe .skillIcons {
+    width: 56%;
+    margin-left: 23%;
+  }
+  .project p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .aboutMe .skillIcons {
+    width: 61%;
+    margin-left: 19%;
+    padding: 13% 0;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
