@@ -194,9 +194,29 @@ footer {
     }
 }
 
-@media (max-width:1441px) {
-    
+@media (max-width:1190px) {
+    .heroImage {
+        width: 47%;
+    }
+
+    .projectContainer {
+        padding: 5%;
+    }
 }
+
+@media (max-width:1066px) {
+
+    header .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .project2>p:nth-child(2) {
+        font-size: 1.25rem;
+    }
+
+}
+
+
 
 
 

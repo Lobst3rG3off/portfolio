@@ -386,4 +386,25 @@ footer .contactInfo p {
     padding-top: 19%;
   }
 }
+
+@media (max-width: 1190px) {
+  .heroImage {
+    width: 47%;
+  }
+  .projectContainer {
+    padding: 5%;
+  }
+}
+
+@media (max-width: 1066px) {
+  header .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .project2 > p:nth-child(2) {
+    font-size: 1.25rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
