@@ -69,4 +69,57 @@ header:after {
   width: 100%;
   border-radius: 15%;
 }
+
+i {
+  font-size: 2rem;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutMe {
+  width: 80%;
+}
+
+.aboutMe .skillIcons {
+  text-align: center;
+}
+
+.project {
+  width: 60%;
+}
+
+.project .imageBox {
+  width: 100%;
+}
+
+.project .imageBox img {
+  width: 100%;
+}
+
+.flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexContainer .flexSpacer {
+  width: 40%;
+}
+
+footer {
+  background: #262d18;
+  width: 100%;
+  height: 20vh;
+}
 /*# sourceMappingURL=styles.css.map */
