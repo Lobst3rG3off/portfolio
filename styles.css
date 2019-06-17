@@ -394,17 +394,50 @@ footer .contactInfo p {
   .projectContainer {
     padding: 5%;
   }
+  footer .contactInfo p {
+    font-size: 1rem;
+  }
 }
 
-@media (max-width: 1066px) {
+@media (max-width: 1068px) {
   header .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .project2 > p:nth-child(2) {
+  .project {
+    width: 100%;
+  }
+  .flexContainer .flexSpacer {
+    width: 0;
+  }
+  .project2 p {
     font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 907px) {
+  .aboutMe .skillIcons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 33%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 33%;
+  }
+}
+
+@media (max-width: 797px) {
+  .heroImage {
+    width: 66%;
+  }
+  footer .contactMe {
+    width: 15%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
