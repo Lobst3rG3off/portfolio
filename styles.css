@@ -327,6 +327,36 @@ section {
   text-align: center;
 }
 
+figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 35%;
+  font-size: 30px;
+  color: orangered;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0.8)));
+  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.8));
+  display: none;
+  line-height: 50px;
+}
+
+.project:hover figcaption {
+  display: block;
+}
+
+.button {
+  font-size: 19px;
+  font-weight: 700;
+  color: #333333;
+  background-color: #16D6D1;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+
 .flexContainer {
   display: -webkit-box;
   display: -ms-flexbox;

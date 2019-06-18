@@ -133,7 +133,11 @@ h3 {
 p {
     margin-bottom: 3%;
     font-size: 1.5rem;
+
+    
 }
+
+
 
     .imageBox{
         width: 100%;
@@ -146,6 +150,34 @@ p {
     padding-top: 5%;
     text-align: center;
 }
+}
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 35%;
+    font-size: 30px;
+    color: orangered;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+    display: none;
+    line-height: 50px;
+}
+
+.project:hover figcaption {
+    display: block;
+}
+
+.button {
+    font-size: 19px;
+    font-weight: 700;
+    color: #333333;
+    background-color: #16D6D1;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 0 auto;
 }
 
 .flexContainer {
