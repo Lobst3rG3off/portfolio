@@ -198,6 +198,14 @@ h2, h3, p {
   font-family: 'Raleway', sans-serif;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
 header {
   width: 100%;
   background-image: url(./assets/windswept_heath_by_fooyee-d813f9a.jpg);
@@ -278,6 +286,16 @@ section {
   background: #e6e7e9;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .aboutMe h2 {
@@ -285,18 +303,25 @@ section {
   margin-bottom: 2%;
 }
 
+.aboutMe p {
+  margin-bottom: 2%;
+}
+
 .aboutMe .skillIcons {
-  padding-top: 5%;
+  background: gray;
   text-align: center;
+  width: 70%;
+  padding: 5px 0;
 }
 
 .aboutMe .skillIcons i {
   font-size: 4rem;
+  color: black;
 }
 
 .project {
   width: 60%;
-  margin: 20% 0;
+  margin: 5% 0;
   -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   background: #e6e7e9;
@@ -323,8 +348,18 @@ section {
 }
 
 .project .skillIcons {
-  padding-top: 5%;
+  padding: 2% 0;
+  font-size: 2rem;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
   text-align: center;
+  background: gray;
+  border-radius: 60%;
+}
+
+.project .skillIcons i {
+  color: black;
 }
 
 figcaption {
@@ -337,8 +372,8 @@ figcaption {
   font-size: 30px;
   color: orangered;
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0.8)));
-  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.8));
+  background-image: -webkit-gradient(linear, left top, right top, from(#08162a), color-stop(#002639), color-stop(#003537), color-stop(#004225), to(#364a0a));
+  background-image: linear-gradient(to right, #08162a, #002639, #003537, #004225, #364a0a);
   display: none;
   line-height: 50px;
 }
