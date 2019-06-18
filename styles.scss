@@ -90,7 +90,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: gray;
+    background: lightgray;
 }
 
 .aboutMe {
@@ -119,8 +119,9 @@ section {
 
 .project {
     width: 60%;
-    margin: 10% 0;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 20% 0;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
+    0 15px 12px rgba(0, 0, 0, 0.22);
     background: #e6e7e9;
 
 padding: 2%;
@@ -157,7 +158,7 @@ figcaption {
     left: 0;
     right: 0;
     bottom: 0;
-    padding-top: 35%;
+    padding-top: 25%;
     font-size: 30px;
     color: orangered;
     text-align: center;
@@ -191,7 +192,7 @@ figcaption {
 }
 
 footer {
-    background: #262d18;
+    background: forestgreen;
     width: 100%;
     height: 30vh;
     display: flex;
