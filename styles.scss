@@ -228,7 +228,13 @@ footer {
 padding-top: 5px;
     justify-content: space-between;
 .contactMe {
-    width:9%;
+    width:100%;
+
+    .contactWrapper {
+        width: 80%;
+        display: flex;
+        justify-content: space-between; 
+    }
 }
     .contactInfo{
         display: flex;
@@ -244,6 +250,13 @@ padding-top: 5px;
                 color: black;
             }
         }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        width: 40%;
     }
 
     .copyright {

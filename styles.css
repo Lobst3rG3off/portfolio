@@ -423,7 +423,17 @@ footer {
 }
 
 footer .contactMe {
-  width: 9%;
+  width: 100%;
+}
+
+footer .contactMe .contactWrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 footer .contactInfo {
@@ -450,6 +460,18 @@ footer .contactInfo p {
 
 footer .contactInfo p i {
   color: black;
+}
+
+footer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+  width: 40%;
 }
 
 footer .copyright {

@@ -150,8 +150,9 @@
 </div>
     </section>
     <footer>
-        <div class="contactMe" data-aos="flip-left">
-            <div class="contactInfo">
+        <div class="contactMe" >
+           <div class="contactWrapper wrapper">
+            <div class="contactInfo" data-aos="flip-left">
                 <p>Contact:</p>
                 <p><a href="mailto:lobstergeoff@gmail.com"><i class="fas fa-envelope"></i></a></p>
                 <p><a href="https://github.com/Lobst3rG3off"><i class="devicon-github-plain-wordmark"></i></a></p>
@@ -160,6 +161,14 @@
                 </a>
                 </p>
             </div>
+            <form method="POST" action="https://formspree.io/lobstergeoff@gmail.com">
+                <input type="Text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your email">
+                <textarea name="message" placeholder="Test Message"></textarea>
+                <button type="submit">Contact</button>
+            </form>
+        </div>
+        
         </div>
         <div class="copyright">
             Copyright© 2019 Lobst3rDev
