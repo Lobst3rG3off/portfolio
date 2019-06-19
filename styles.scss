@@ -233,15 +233,14 @@ h2 {
 }
 
 
-h3
+h3,
+p,
+figcaption
  {
     font-family: 'Raleway',
         sans-serif;
 }
 
-p, figcaption {
-    font-family: 'Bitter', serif;
-}
 
 h2 {
     font-size: 3rem;
@@ -399,8 +398,7 @@ section {
         margin-left: 20%;
         margin-top: 2%;
         text-align: center;
-        background: gray;
-        border-radius: 60%;
+        
 
         i {
             color: goldenrod;
@@ -418,8 +416,8 @@ figcaption {
     font-size: 30px;
     color: orangered;
     text-align: center;
-    background-image: linear-gradient(to right, #08162a, #002639, #003537, #004225, #364a0a);
-    
+    background: rgba(0, 0, 0, 0.9);
+    font-weight: 700;
     line-height: 50px;
     visibility: hidden;
     opacity: 0;
@@ -474,14 +472,20 @@ footer {
     }
 
     .contactInfo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #e6e7e9;
+        
         width: 12%;
         height: 20vh;
         margin-top: 5%;
+        text-align: center;
+
+        .contactInfoWrapper {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+margin-top: 5%;
+        }
+
 
         p {
 
@@ -502,8 +506,13 @@ footer {
 
         input {
             border: none;
-            padding: 3px;
-            margin: 5px 0;
+            padding: 7px;
+            margin: 5px;
+        }
+        .nameEmail {
+            display: flex;
+    justify-content: space-between;
+
         }
 
         button {
@@ -516,6 +525,7 @@ footer {
 
         textarea {
             height: 20vh;
+            border: none;
         }
     }
 

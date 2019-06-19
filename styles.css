@@ -229,12 +229,10 @@ h2 {
   font-family: 'Acme', sans-serif;
 }
 
-h3 {
+h3,
+p,
+figcaption {
   font-family: 'Raleway', sans-serif;
-}
-
-p, figcaption {
-  font-family: 'Bitter', serif;
 }
 
 h2 {
@@ -405,8 +403,6 @@ section {
   margin-left: 20%;
   margin-top: 2%;
   text-align: center;
-  background: gray;
-  border-radius: 60%;
 }
 
 .project .skillIcons i {
@@ -423,8 +419,8 @@ figcaption {
   font-size: 30px;
   color: orangered;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#08162a), color-stop(#002639), color-stop(#003537), color-stop(#004225), to(#364a0a));
-  background-image: linear-gradient(to right, #08162a, #002639, #003537, #004225, #364a0a);
+  background: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
   line-height: 50px;
   visibility: hidden;
   opacity: 0;
@@ -493,22 +489,26 @@ footer .contactMe .contactWrapper {
 }
 
 footer .contactInfo {
+  width: 12%;
+  height: 20vh;
+  margin-top: 5%;
+  text-align: center;
+}
+
+footer .contactInfo .contactInfoWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: #e6e7e9;
-  width: 12%;
-  height: 20vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin-top: 5%;
 }
 
@@ -535,8 +535,17 @@ footer form {
 
 footer form input {
   border: none;
-  padding: 3px;
-  margin: 5px 0;
+  padding: 7px;
+  margin: 5px;
+}
+
+footer form .nameEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 footer form button {
@@ -548,6 +557,7 @@ footer form button {
 
 footer form textarea {
   height: 20vh;
+  border: none;
 }
 
 footer .copyright {
