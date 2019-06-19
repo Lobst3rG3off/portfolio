@@ -228,10 +228,14 @@ h1 {
 }
 
 h2,
-h3,
-p {
+h3
+ {
     font-family: 'Raleway',
         sans-serif;
+}
+
+p, figcaption {
+    font-family: 'Bitter', serif;
 }
 
 h2 {
@@ -288,9 +292,9 @@ header:after {
 }
 
 .heroImage {
-    width: 37%;
     z-index: 5;
-    padding-top: 2%;
+    width: 30%;
+    padding-top: 7%;
 
     img {
         width: 100%;
@@ -344,6 +348,9 @@ section {
             font-size: 4rem;
             color: gold;
         }
+        p {
+            font-weight: 800;
+        }
     }
 }
 
@@ -353,8 +360,6 @@ section {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
         0 15px 12px rgba(0, 0, 0, 0.22);
     background: #e6e7e9;
-    transition: all .5s ease-in-out;
-
     padding: 2%;
 
     h3 {
@@ -407,12 +412,17 @@ figcaption {
     color: orangered;
     text-align: center;
     background-image: linear-gradient(to right, #08162a, #002639, #003537, #004225, #364a0a);
-    display: none;
+    
     line-height: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
 .project:hover figcaption {
     display: block;
+    visibility: visible;
+    opacity: 1;
 }
 
 
@@ -420,7 +430,7 @@ figcaption {
     font-size: 19px;
     font-weight: 700;
     color: #333333;
-    background-color: #16D6D1;
+    background-color: #76BDBB;
     border-radius: 5px;
     padding: 10px 30px;
     margin: 0 auto;
