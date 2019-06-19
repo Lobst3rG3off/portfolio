@@ -225,7 +225,10 @@ h1 {
   font-size: 4rem;
 }
 
-h2,
+h2 {
+  font-family: 'Acme', sans-serif;
+}
+
 h3 {
   font-family: 'Raleway', sans-serif;
 }
@@ -342,10 +345,10 @@ section {
 
 .aboutMe p {
   margin-bottom: 2%;
+  font-size: 1.5rem;
 }
 
 .aboutMe .skillIcons {
-  background: gray;
   text-align: center;
   padding: 5px 0;
   margin-bottom: 5%;
@@ -360,7 +363,7 @@ section {
 
 .aboutMe .skillIcons i {
   font-size: 4rem;
-  color: gold;
+  color: goldenrod;
 }
 
 .aboutMe .skillIcons p {
@@ -407,7 +410,7 @@ section {
 }
 
 .project .skillIcons i {
-  color: gold;
+  color: goldenrod;
 }
 
 figcaption {
@@ -456,9 +459,9 @@ figcaption {
 }
 
 footer {
-  background: #f0db4f;
+  background: goldenrod;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -505,6 +508,8 @@ footer .contactInfo {
           justify-content: center;
   background: #e6e7e9;
   width: 12%;
+  height: 20vh;
+  margin-top: 5%;
 }
 
 footer .contactInfo p {
@@ -535,7 +540,14 @@ footer form input {
 }
 
 footer form button {
-  background-color: #16D6D1;
+  background-color: #76BDBB;
+  margin-bottom: 3%;
+  height: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer form textarea {
+  height: 20vh;
 }
 
 footer .copyright {
