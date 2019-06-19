@@ -316,7 +316,7 @@ section {
 
 .aboutMe .skillIcons i {
   font-size: 4rem;
-  color: black;
+  color: gold;
 }
 
 .project {
@@ -359,7 +359,7 @@ section {
 }
 
 .project .skillIcons i {
-  color: black;
+  color: gold;
 }
 
 figcaption {
