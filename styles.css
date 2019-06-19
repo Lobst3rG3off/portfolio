@@ -3,11 +3,23 @@
   padding: 0;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
   display: block;
 }
 
-audio, canvas, video {
+audio,
+canvas,
+video {
   display: inline-block;
 }
 
@@ -30,7 +42,8 @@ a:focus {
   outline: thin dotted;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0;
 }
 
@@ -42,7 +55,8 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 700;
 }
 
@@ -55,7 +69,10 @@ mark {
   color: #000;
 }
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, serif;
   font-size: 1em;
 }
@@ -73,7 +90,8 @@ small {
   font-size: 80%;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -102,26 +120,35 @@ fieldset {
   padding: .35em .625em .75em;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 0;
 }
 
-button, input {
+button,
+input {
   line-height: normal;
 }
 
-button, html input[type=button], input[type=reset], input[type=submit] {
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
-button[disabled], input[disabled] {
+button[disabled],
+input[disabled] {
   cursor: default;
 }
 
-input[type=checkbox], input[type=radio] {
+input[type=checkbox],
+input[type=radio] {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
@@ -133,7 +160,8 @@ input[type=search] {
   box-sizing: content-box;
 }
 
-input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -147,11 +175,14 @@ table {
   border-spacing: 0;
 }
 
-body, figure {
+body,
+figure {
   margin: 0;
 }
 
-legend, button::-moz-focus-inner, input::-moz-focus-inner {
+legend,
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
@@ -194,7 +225,9 @@ h1 {
   font-size: 4rem;
 }
 
-h2, h3, p {
+h2,
+h3,
+p {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -230,7 +263,8 @@ header .heroScript {
   z-index: 5;
 }
 
-header .heroScript h1, header h2 {
+header .heroScript h1,
+header h2 {
   color: #e6e7e9;
 }
 
@@ -310,9 +344,15 @@ section {
 .aboutMe .skillIcons {
   background: gray;
   text-align: center;
-  width: 70%;
   padding: 5px 0;
   margin-bottom: 5%;
+  width: 89%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .aboutMe .skillIcons i {
@@ -326,6 +366,8 @@ section {
   -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   background: #e6e7e9;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   padding: 2%;
 }
 
