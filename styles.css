@@ -312,6 +312,7 @@ section {
   text-align: center;
   width: 70%;
   padding: 5px 0;
+  margin-bottom: 5%;
 }
 
 .aboutMe .skillIcons i {
@@ -368,7 +369,7 @@ figcaption {
   left: 0;
   right: 0;
   bottom: 0;
-  padding-top: 25%;
+  padding: 25% 5% 0 5%;
   font-size: 30px;
   color: orangered;
   text-align: center;
@@ -491,6 +492,16 @@ footer .copyright {
   color: white;
   padding: 1% 0;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .copyright p {
+  margin: 0 10px;
 }
 
 @media (max-width: 1190px) {
