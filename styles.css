@@ -350,17 +350,17 @@ section {
   text-align: center;
   padding: 5px 0;
   margin-bottom: 5%;
-  width: 89%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .aboutMe .skillIcons i {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: goldenrod;
 }
 

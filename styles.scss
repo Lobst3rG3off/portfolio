@@ -282,7 +282,6 @@ header {
 
 header:after {
     content: "";
-    // background: rgba(50, 42, 51, 0.5);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50%);
     position: absolute;
     width: 100%;
@@ -341,16 +340,15 @@ section {
 
 
     .skillIcons {
-        // background: gray;
         text-align: center;
         padding: 5px 0;
         margin-bottom: 5%;
-        width: 89%;
+        width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
         i {
-            font-size: 4rem;
+            font-size: 3.5rem;
             color: goldenrod;
         }
         p {
