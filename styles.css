@@ -438,7 +438,7 @@ figcaption {
   font-size: 19px;
   font-weight: 700;
   color: #333333;
-  background-color: #76BDBB;
+  background-color: #00a8ff;
   border-radius: 5px;
   padding: 10px 30px;
   margin: 0 auto;
@@ -549,7 +549,7 @@ footer form .nameEmail {
 }
 
 footer form button {
-  background-color: #76BDBB;
+  background-color: #00a8ff;
   margin-bottom: 3%;
   height: 40px;
   font-family: 'Raleway', sans-serif;
