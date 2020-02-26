@@ -454,7 +454,6 @@ figcaption {
 footer {
     background: goldenrod;
     width: 100%;
-    height: 46vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -606,9 +605,7 @@ div.skillIcons:nth-child(6) {
           font-size: 0.85rem;
     }
 }
-footer {
-    height: 94vh;
-}
+
 footer .contactInfo {
     width: 100%;
     height: 20vh;
