@@ -235,13 +235,16 @@
                         </p>
                     </div>
                 </div>
-                <form method="POST" action="https://formspree.io/lobstergeoff@gmail.com">
-                    <div class="nameEmail">
-                        <input type="Text" name="name" placeholder="Your Name">
-                        <input type="email" name="email" placeholder="Your email">
+                <form class="contact-form" action="https://formspree.io/lobstergeoff@gmail.com" method="POST">
+                    <div class="form-half">
+                        <label for="contact-name" class="visuallyHidden">Name</label>
+                        <input type="text" name="contact-name" id="contact-name" placeholder="Name">
+                        <label for="contact-email" class="visuallyHidden">Email</label>
+                        <input type="email" name="contact-email" id="contact-email" placeholder="Email address">
                     </div>
-                    <textarea name="message" placeholder="Let's Hear from You"></textarea>
-                    <button type="submit">Contact</button>
+                    <label for="contact-message" class="visuallyHidden">Message</label>
+                    <textarea name="contact-message" id="contact-message" placeholder="Message"></textarea>
+                    <input type="submit" value="submit" class="button form-button">
                 </form>
             </div>
 
